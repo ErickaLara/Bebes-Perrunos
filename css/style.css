@@ -1,0 +1,108 @@
+/* Fonts */
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Noto+Sans+JP:wght@100&display=swap');
+</style>
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Diplomata SC', cursive;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+  color: #54436B;
+}
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+  background-image: url(../images/background2.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner h1 {
+  color: #F9F9F9;
+}
+
+.banner p {
+  color: #F9F9F9;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #362222;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid #1EDD88;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}
+
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #402218;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #D7B19D;
+  background-color: #F0D9E7;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #C490E4;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #A03C78;
+}
+
+.footer p {
+  color: #A03C78;
+}
+
+.footer .fas {
+  color: #4F0E0E;
+}
+
+
